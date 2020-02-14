@@ -5,9 +5,8 @@
   box-sizing: border-box;
 }
 section{
-  width: 600px;
+  width: 700px;
   height: 100vh;
-  border: 3px solid black;
   /* margin: auto; */
 }
 /* struttura conteiner */
@@ -15,27 +14,27 @@ section{
 .roma{
   background-image: url(img/roma.jpg);
   background-size: cover;
-  width: 100%;
+  max-width: 100%;
   height: 33.3vh;
   position: relative;
-  border-bottom: 3px solid black;
+  border: 3px solid white;
 }
 .copenaghen{
   background-image: url(img/copenaghen.jpg);
   background-size: cover;
-  width: 100%;
+  max-width: 100%;
   height: 33.3vh;
   position: relative;
-  border-bottom: 3px solid black;
+  border: 3px solid white;
 }
 
 .tokyo{
   background-image: url(img/tokyo.jpg);
   background-size: cover;
-  width: 100%;
-  height: 33.3vh;
+  max-width: 100%;
+  height: 33vh;
   position: relative;
-  border-bottom: 3px solid black;
+  border: 3px solid white;
 }
   /* struttura layover */
 .layover{
